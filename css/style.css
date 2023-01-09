@@ -333,14 +333,14 @@ ul.btn li:last-child {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #143a05;
+     color: black;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #143a05;
+     color: black;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -395,10 +395,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
-     background-repeat: no-repeat;
-     min-height: 840px;
-     background-size: 100% 100%;
+     /* min-height: 840px; */
      display: flex;
      justify-content: center;
      align-content: center;
@@ -514,7 +511,23 @@ ul.btn li:last-child {
      width: 100%;
 }
 
+.header-carousel .container {
+  max-width: unset;
+  padding: unset;
+}
 
+.header-carousel .carousel-caption {
+  padding-top: 0 !important;
+}
+
+.header-carousel {
+  margin-bottom: -980px;
+}
+
+
+.header-menu-container {
+  margin-bottom: 260px;
+}
 /** end three_box section **/
 
 

@@ -282,7 +282,7 @@
         margin-top: -38px;
     }
     .navigation .navbar-collapse {
-        background: #000;
+        background: white;
         padding: 20px;
         margin-top: 69px;
         position: absolute;
@@ -292,7 +292,8 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: #fff;
+        background-color: white;
+        color: black;
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;
